@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tworzenie nowego sejfu Pass Keeper v2</title>
+  <desc id="desc">Terminal pokazuje utworzenie sejfu, ukryte wprowadzanie hasla glownego i glowne menu programu.</desc>
+  <rect width="1200" height="720" rx="24" fill="#0b1220"/>
+  <rect x="28" y="28" width="1144" height="56" rx="14" fill="#182235"/>
+  <circle cx="62" cy="56" r="9" fill="#ff5f57"/>
+  <circle cx="91" cy="56" r="9" fill="#febc2e"/>
+  <circle cx="120" cy="56" r="9" fill="#28c840"/>
+  <text x="600" y="63" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="18">Pass Keeper v2 — pierwszy start</text>
+
+  <rect x="28" y="104" width="760" height="580" rx="14" fill="#070b12"/>
+  <g fill="#d7e0ea" font-family="Consolas, 'Courier New', monospace" font-size="18">
+    <text x="58" y="140">+=======================================+</text>
+    <text x="58" y="166">|          PASS KEEPER  v2.0            |</text>
+    <text x="58" y="192">|     lokalny, szyfrowany sejf CLI      |</text>
+    <text x="58" y="218">+=======================================+</text>
+    <text x="58" y="262" fill="#fbbf24">Nie znaleziono sejfu. Utworzymy nowy.</text>
+    <text x="58" y="294">Ustaw haslo glowne: <tspan fill="#64748b">[wpis ukryty]</tspan></text>
+    <text x="58" y="322">Powtorz haslo glowne: <tspan fill="#64748b">[wpis ukryty]</tspan></text>
+    <text x="58" y="362" fill="#4ade80">Utworzono sejf: ...\passwords.json</text>
+    <text x="58" y="410" fill="#7dd3fc">--- Pass Keeper ---</text>
+    <text x="58" y="440">Wpisy w sejfie: 0</text>
+    <text x="58" y="474">1. Dodaj wpis</text>
+    <text x="58" y="502">2. Pokaz wpis</text>
+    <text x="58" y="530">3. Lista wpisow</text>
+    <text x="58" y="558">4. Edytuj wpis</text>
+    <text x="58" y="586">5. Usun wpis</text>
+    <text x="58" y="614">6. Szukaj   7. Generator hasel</text>
+    <text x="58" y="642">8. Zmien haslo   9. Zablokuj   0. Wyjscie</text>
+  </g>
+
+  <rect x="816" y="104" width="356" height="580" rx="14" fill="#111c2e"/>
+  <text x="846" y="150" fill="#7dd3fc" font-family="Segoe UI, sans-serif" font-size="25" font-weight="700">Co się dzieje?</text>
+  <g fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="19">
+    <circle cx="850" cy="201" r="18" fill="#2563eb"/><text x="850" y="208" text-anchor="middle" fill="white" font-weight="700">1</text>
+    <text x="884" y="195"><tspan x="884" dy="0">Program generuje losową sól</tspan><tspan x="884" dy="27">i tworzy pusty sejf.</tspan></text>
+    <circle cx="850" cy="300" r="18" fill="#2563eb"/><text x="850" y="307" text-anchor="middle" fill="white" font-weight="700">2</text>
+    <text x="884" y="294"><tspan x="884" dy="0">Hasło główne jest ukryte</tspan><tspan x="884" dy="27">i nie trafia do pliku.</tspan></text>
+    <circle cx="850" cy="399" r="18" fill="#2563eb"/><text x="850" y="406" text-anchor="middle" fill="white" font-weight="700">3</text>
+    <text x="884" y="393"><tspan x="884" dy="0">Klucz powstaje lokalnie</tspan><tspan x="884" dy="27">za pomocą Argon2id.</tspan></text>
+    <circle cx="850" cy="498" r="18" fill="#2563eb"/><text x="850" y="505" text-anchor="middle" fill="white" font-weight="700">4</text>
+    <text x="884" y="492"><tspan x="884" dy="0">Po utworzeniu sejfu</tspan><tspan x="884" dy="27">pojawia się pełne menu.</tspan></text>
+  </g>
+  <text x="846" y="638" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="15">Dane na ekranie są demonstracyjne.</text>
+</svg>

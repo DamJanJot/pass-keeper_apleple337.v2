@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Dodawanie wpisu i generowanie hasla</title>
+  <desc id="desc">Terminal pokazuje dodanie demonstracyjnego konta GitHub i wygenerowanie losowego hasla.</desc>
+  <rect width="1200" height="720" rx="24" fill="#0b1220"/>
+  <rect x="28" y="28" width="1144" height="56" rx="14" fill="#182235"/>
+  <circle cx="62" cy="56" r="9" fill="#ff5f57"/>
+  <circle cx="91" cy="56" r="9" fill="#febc2e"/>
+  <circle cx="120" cy="56" r="9" fill="#28c840"/>
+  <text x="600" y="63" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="18">Pass Keeper v2 — dodawanie wpisu</text>
+
+  <rect x="28" y="104" width="760" height="580" rx="14" fill="#070b12"/>
+  <g fill="#d7e0ea" font-family="Consolas, 'Courier New', monospace" font-size="18">
+    <text x="58" y="148" fill="#7dd3fc">--- Pass Keeper ---</text>
+    <text x="58" y="184">Wpisy w sejfie: 0</text>
+    <text x="58" y="220">Wybierz opcje: <tspan fill="#fbbf24">1</tspan></text>
+    <text x="58" y="264">Nazwa wpisu: <tspan fill="#4ade80">GitHub</tspan></text>
+    <text x="58" y="298">Login / e-mail: <tspan fill="#4ade80">demo@example.test</tspan></text>
+    <text x="58" y="332">Haslo (Enter = wygeneruj): <tspan fill="#64748b">[Enter]</tspan></text>
+    <text x="58" y="366">Dlugosc generowanego hasla [20]: <tspan fill="#fbbf24">24</tspan></text>
+    <text x="58" y="410">Wygenerowane haslo:</text>
+    <text x="58" y="442" fill="#f472b6">gR7!mP2#vL9@xQ4$kN8&amp;zT6?</text>
+    <text x="58" y="486">Adres URL: <tspan fill="#4ade80">https://github.com</tspan></text>
+    <text x="58" y="520">Notatka: <tspan fill="#4ade80">konto demonstracyjne</tspan></text>
+    <text x="58" y="570" fill="#4ade80">Zapisano wpis: GitHub</text>
+    <text x="58" y="620">Wpisy w sejfie: 1</text>
+  </g>
+
+  <rect x="816" y="104" width="356" height="580" rx="14" fill="#111c2e"/>
+  <text x="846" y="150" fill="#7dd3fc" font-family="Segoe UI, sans-serif" font-size="25" font-weight="700">Dodawanie wpisu</text>
+  <g fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-size="19">
+    <circle cx="850" cy="210" r="18" fill="#7c3aed"/><text x="850" y="217" text-anchor="middle" fill="white" font-weight="700">1</text>
+    <text x="884" y="204"><tspan x="884">Każdy wpis może mieć</tspan><tspan x="884" dy="27">login, URL i notatkę.</tspan></text>
+    <circle cx="850" cy="320" r="18" fill="#7c3aed"/><text x="850" y="327" text-anchor="middle" fill="white" font-weight="700">2</text>
+    <text x="884" y="314"><tspan x="884">Enter uruchamia generator</tspan><tspan x="884" dy="27">oparty na module secrets.</tspan></text>
+    <circle cx="850" cy="430" r="18" fill="#7c3aed"/><text x="850" y="437" text-anchor="middle" fill="white" font-weight="700">3</text>
+    <text x="884" y="424"><tspan x="884">Cały wpis trafia do jednego</tspan><tspan x="884" dy="27">zaszyfrowanego sejfu.</tspan></text>
+    <circle cx="850" cy="540" r="18" fill="#7c3aed"/><text x="850" y="547" text-anchor="middle" fill="white" font-weight="700">4</text>
+    <text x="884" y="534"><tspan x="884">Zapis jest atomowy — stary</tspan><tspan x="884" dy="27">plik nie znika w pół operacji.</tspan></text>
+  </g>
+  <text x="846" y="638" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="15">Hasło i konto są całkowicie fikcyjne.</text>
+</svg>
